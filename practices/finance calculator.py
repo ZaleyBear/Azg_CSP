@@ -1,0 +1,11 @@
+#AZG Python
+income=float(input("what is your monthly income?:$ "))
+rent=float(input("what is your monthly rent/mortgage?:$ "))
+utilities=float(input("what is your monthly utilities cost?:$ "))
+groceries=float(input("How much do you spend monthly on groceries?:$ "))
+transportation=float(input("how much do you spend monthly on transportation?:$ "))
+total=(rent+utilities+groceries+transportation)
+print("$"rent, (rent/income)*100, "percent of your income is used on rent.")
+print((utilities/income)*100, "percent of your income is used on utilities.")
+print((groceries/income)*100, "percent of your income is used on groceries.")
+print((transportation/income)*100, "percent of your income is used on transportation.")
