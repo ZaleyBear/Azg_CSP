@@ -1,0 +1,13 @@
+#AZG Python
+Time=int(input("What time of day [to the nearest hour] is it in military time?: "))
+if Time<17 and Time>=13:(print("Good afternoon! It is a lovely day."))
+elif Time>=17 and Time<20:(print("Good evening! The sunset is quite beautiful."))
+elif Time>=20 and Time<=22:(print("The stars are the soul of the night sky..."))
+elif Time>=00 and Time<3:(print("Currently asleep.. cannot respond. zzz~"))
+elif Time==4:(print("Currently asleep.. cannot respond. zzz~"))
+elif Time>=5 and Time<8:(print("Morning- Talk to me when i have had my coffee.."))
+elif Time>=8 and Time<12:(print("How are you this morning?"))
+elif Time>=23 and Time<24:(print("Im exhausted.. time to go to bed."))
+elif Time==12:(print("It's noon! How lovely!"))
+elif Time==3:(print("The withcing hour is upon us..."))
+else:(print("Thats not on my clock, I'm looking for an hour with no zeros after it."))
