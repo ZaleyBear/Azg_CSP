@@ -1,4 +1,4 @@
-// AZG first C program
+// AZG first_program
 #include <stdio.h>
 
 
