@@ -2,14 +2,24 @@
 #include <string.h>
 
 int main(){
-    char hour[2]
-    strcat 
-    if (time >= 5){
-        printf("Goodmorning!\n");}
+    int time;
+    printf("What time is it in milatary time to the nearest hour?: ");
+    scanf("%d", &time);
+if (time >= 0){
+    printf("sleeping... zzz\n");
+}else if (time >= 5){
+    printf("Good Morning!\n");
 }else if (time >= 12){
-        printf("Good Afternoon!\n");
+    printf("Good Afternoon!\n");
 }else if (time >= 16){
-        printf("Good Evening!\n");
+    printf("Good Evening!\n");
 }else if (time >= 20){
-        printf("Goodnight!\n");
-}else {printf("Sorry...! I dot\n");}
+    printf("Goodnight!\n");
+}else{
+    printf("Sorry...! I don't understand.\n");
+}
+
+return 0;
+}
+
+
