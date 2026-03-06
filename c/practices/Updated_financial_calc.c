@@ -19,6 +19,7 @@ return
 
 int calculate_percentages(float income, float bill) {
     int percent = (bill/ income) * 100
+    return percent;
 }
 
     
